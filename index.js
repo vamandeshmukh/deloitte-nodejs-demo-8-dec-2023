@@ -15,13 +15,30 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-app.get('/', (req, res) => {
-    console.log('welcome');
-    res.send('Welcome to Deloitte NodeJS demo application.');
-})
+// app.listen(arg1, arg2);
+// app.listen(port number, () => {}));
 
 app.listen(port, () => {
     console.log(`App is running at http://localhost:${port}/`);
 });
 
+// app.get(arg1, arg2);
+// app.get('endpoint', () => {});
+// app.get('endpoint', (request, response) => {});
+// app.get('endpoint', (request, response) => {response.send()});
+
+app.get('/', (req, res) => {
+    console.log('welcome');
+    res.send('Welcome to Deloitte NodeJS demo application.');
+});
+
+app.get('/about', (req, res) => {
+    console.log('about');
+    res.send('About Deloitte');
+});
+
+app.get('/contact', (req, res) => {
+    console.log('contact');
+    res.send('Please contact us for your needs.');
+});
 
