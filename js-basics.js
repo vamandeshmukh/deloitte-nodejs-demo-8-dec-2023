@@ -119,8 +119,10 @@ getInfo((abc) => { console.log(abc.info); });
 
 // Angular =! AngularJS 
 
-
-
+// Node 
+// Express 
+// Angular 
+// MongoDB / MySQL 
 
 
 
