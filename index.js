@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
     res.send('Welcome to Deloitte NodeJS demo application.');
 })
 
-app.listen(() => {
+app.listen(port, () => {
     console.log(`App is running at http://localhost:${port}/`);
-}, port);
+});
 
 
