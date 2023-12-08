@@ -113,6 +113,21 @@ getInfo((abc) => { console.log(abc.info); });
 
 
 
+// Node == NodeJS 
+// Express == ExpressJS 
+// React == ReactJS 
+
+// Angular =! AngularJS 
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,6 +1,9 @@
 // steps
+// create a folder with the project name 
+// on cmd, run - 
+// npm init -y 
 // edit package.json 
-// edit index.js
+// write code in index.js
 // on cmd, run - 
 // npm install
 // on cmd, run - 
