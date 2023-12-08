@@ -1,3 +1,13 @@
+// steps
+// edit package.json 
+// edit index.js
+// on cmd, run - 
+// npm install
+// on cmd, run - 
+// npm start 
+// view the output on the browser 
+// to stop, on cmd, run
+// Ctrl + C Y 
 
 console.log('start');
 
@@ -13,4 +23,5 @@ app.get('/', (req, res) => {
 app.listen(() => {
     console.log(`App is running at http://localhost:${port}/`);
 }, port);
+
 
